@@ -18,7 +18,7 @@ public class ProductController {
         this.productDao = productDao;
     }
 
-    @GetMapping("/Produit")
+    @GetMapping("/Produits")
     public List<Product> listeProduits() {
         return productDao.findAll();
     }
