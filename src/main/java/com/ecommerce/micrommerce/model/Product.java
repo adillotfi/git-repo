@@ -31,7 +31,7 @@ public class Product {
   }
 
   public void setName(String nom) {
-    this.nom = name;
+    this.name = nom;
   }
 
   public int getPrix() {
@@ -46,7 +46,7 @@ public class Product {
   public String toString() {
     return "Product{" +
         "id=" + id +
-        ", nom='" + nom + '\'' +
+        ", nom='" + name + '\'' +
         ", prix=" + prix +
         '}';
   }
