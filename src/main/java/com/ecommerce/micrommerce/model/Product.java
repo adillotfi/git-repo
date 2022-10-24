@@ -42,7 +42,7 @@ public class Product {
     this.prix = prix;
   }
 
-  @Overrid
+  @Override
   public String toString() {
     return "Product{" +
         "id=" + id +
