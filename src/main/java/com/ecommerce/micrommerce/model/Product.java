@@ -38,11 +38,11 @@ public class Product {
     return prix;
   }
 
-  public void setPri(int prix) {
+  public void setPrix(int prix) {
     this.prix = prix;
   }
 
-  @Override
+  @Overrid
   public String toString() {
     return "Product{" +
         "id=" + id +
