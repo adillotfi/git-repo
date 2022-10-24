@@ -38,7 +38,7 @@ public class Product {
     return prix;
   }
 
-  public void setPrix(int prix) {
+  public void setPri(int prix) {
     this.prix = prix;
   }
 
