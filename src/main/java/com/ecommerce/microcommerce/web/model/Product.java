@@ -1,4 +1,4 @@
-package com.ecommerce.micrommerce.model;
+package com.ecommerce.microcommerce.web.model;
 
 public class Product {
   private int id;
