@@ -2,7 +2,7 @@ package com.ecommerce.microcommerce.web.model;
 
 public class Product {
   private int id;
-  private String nome;
+  private String name;
   private int prix;
 
   public Product() {
