@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.ecommerce.micrommerce.model.Product;
+import com.ecommerce.microcommerce.web.model.Product;
 
 @Repository
 public class ProductDaoImpl implements ProductDao {

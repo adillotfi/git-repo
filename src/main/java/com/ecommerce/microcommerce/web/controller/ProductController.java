@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ecommerce.microcommerce.web.dao.ProductDao;
-import com.ecommerce.micrommerce.model.Product;
+import com.ecommerce.microcommerce.web.model.Product;
 
 @RestController
 public class ProductController {
