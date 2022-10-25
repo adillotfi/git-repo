@@ -12,9 +12,4 @@ pipeline {
             }
         }
     }
-    post {
-        failure {
-            mail to: adillotfi7@gmail.com, subject: ‘The Pipeline success :(‘
-        }
-    }
 }
